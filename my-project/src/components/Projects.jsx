@@ -1,11 +1,27 @@
 import { PROJECTS } from "../constants";
+import { motion } from "framer-motion";
+import { motion_tb, motion_rl } from "../motionVariants";
+
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900] pb-4">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
+      <motion.h1
+        variants={motion_tb(0.25)}
+        initial="hidden"
+        whileInView="visible"
+        className="my-20 text-center text-4xl"
+      >
+        Projects
+      </motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <motion.div
+            variants={motion_rl(0.5)}
+            initial="hidden"
+            whileInView="visible"
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center"
+          >
             <div className="w-full lg:w-1/4">
               <img
                 src={project.image}
@@ -28,7 +44,7 @@ const Projects = () => {
                 </span>
               ))}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
