@@ -1,12 +1,27 @@
 import { EXPERIENCES } from "../constants";
+import { motion } from "framer-motion";
+import { motion_tb, motion_lr, motion_rl } from "../motionVariants";
 
 const Experience = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Experience</h1>
+      <motion.h1
+        variants={motion_tb(0.25)}
+        initial="hidden"
+        whileInView="visible"
+        className="my-20 text-center text-4xl"
+      >
+        Experience
+      </motion.h1>
       <div>
         {EXPERIENCES.map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <motion.div
+            variants={motion_lr(0.5)}
+            initial="hidden"
+            whileInView="visible"
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center"
+          >
             <div className="w-full lg:w-1/4">
               <p>{experience.year}</p>
             </div>
@@ -27,7 +42,7 @@ const Experience = () => {
                 </span>
               ))}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
