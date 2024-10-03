@@ -1,4 +1,4 @@
-import logo from "../assets/kevinRushLogo.png";
+import logo from "../assets/namelogo.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 

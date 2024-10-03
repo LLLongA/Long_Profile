@@ -28,8 +28,9 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-bold tracking-tight lg:mt-16
-          lg:text-8xl"
+              className=" bg-gradient-to-r from-cyan-400 via-orange-400 to-pink-500
+              bg-clip-text pb-14 text-4xl font-bold tracking-tight lg:mt-16
+          lg:text-4xl text-transparent"
             >
               Long Chen
             </motion.h1>
@@ -51,7 +52,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-semibold tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>
