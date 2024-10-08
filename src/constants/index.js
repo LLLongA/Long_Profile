@@ -1,9 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `As a front-end developer, I specialize in creating dynamic, user-centric web applications with a strong focus on delivering exceptional user experiences. I have extensive experience working with modern frameworks such as React, Angular, and Vue, and I'm well-versed in integrating popular UI libraries like Ant Design and Material UI to build responsive, aesthetically pleasing, and highly functional interfaces./n
+export const HERO_CONTENT = `As a front-end developer, I specialize in creating dynamic, user-centric web applications with a strong focus on delivering exceptional user experiences. I have extensive experience working with modern frameworks such as React, Angular, and Vue, and I'm well-versed in integrating popular UI libraries like Ant Design and Material UI to build responsive, aesthetically pleasing, and highly functional interfaces.
 
 My approach to development emphasizes not only clean, efficient code but also the importance of intuitive, accessible, and engaging user interactions. I’m passionate about optimizing the user journey, ensuring that every design and functionality choice serves the needs of the end user while maintaining a seamless experience across different devices and platforms.`;
 
@@ -17,33 +16,18 @@ With this combination of skills and interests, I aim to contribute meaningfully 
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-    
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Data Journalism Internship",
+    company: "NetEase",
+    description: `During this internship, I worked on data-driven news stories, focusing on sourcing, cleaning, and analyzing large datasets to uncover insights that informed various journalistic reports. I collaborated with data scientists and editors to produce visually compelling data visualizations using tools like Tableau and Python. Additionally, I contributed to multimedia storytelling by assisting in the production of video content through Adobe After Effects and Premiere Pro, ensuring that complex data was presented in a clear and engaging manner.`,
+    technologies: ["Python", "Tableau", "Adobe After Effects", "Adobe Premiere Pro"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Data Journalism Internship",
+    company: "China Business Network",
+    description: `In this role, I played a critical part in delivering data-focused journalism projects. I gathered and processed data using Python, and created dynamic visualizations using D3.js to enhance reader comprehension. I regularly collaborated with cross-functional teams, including journalists, data analysts, and graphic designers, to deliver timely and impactful stories. I also used Excel for data management and analysis, ensuring accuracy in the representation of key economic and business trends.`,
+    technologies: ["Python", "D3.js", "Excel"],
   },
 ];
 
@@ -53,35 +37,26 @@ export const PROJECTS = [
     image: project1,
     description:
       "A full stack project utilizing Angular for the front-end development and SpringBoot for the back-end. The project stores data in MySQL and communicates via RESTful APIs for seamless data interaction.",
-    technologies: ["Angular", " SpringBoot", "Mysql",  "TypeScript"],
+    technologies: ["Angular", " SpringBoot", "Mysql",  "TypeScript", "Sass"],
     link: "https://github.com/LLLongA/fitness_tracker", 
 
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    link: "https://github.com/yourusername/fitness-tracker", // 添加项目链接
-
-  },
-  {
-    title: "Portfolio Website",
+    title: "Personal Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Framer", "React", "TailwindCss","JavaScript"],
-    link: "https://github.com/LLLongA/Long_Profile", // 添加项目链接
+      "A personal portfolio website built with React and styled using Tailwind CSS for a modern UI. Framer Motion is used for smooth animations, and JavaScript handles interactive features to showcase projects and skills effectively.",
+    technologies: ["React", "TailwindCss","JavaScript","Framer"],
+    link: "https://github.com/LLLongA/Long_Profile", 
 
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Grover Planner",
+    image: project2,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    link: "https://github.com/yourusername/fitness-tracker", // 添加项目链接
+      "Grover Planner is an application developed using Python's PySide library for building the UI. It utilizes Web Channel for interaction between Python and JavaScript. The app is designed to control a robot, enabling it to draw in outdoor environments.",
+    technologies: ["Python", "JavaScript", "Html"],
+    link: "https://www.notion.so/project-grover-landing/ec62fef82fae491d9947178c2404ba4b?v=bd161193830640078a94a9c11b60ded4", 
 
   },
 ];
