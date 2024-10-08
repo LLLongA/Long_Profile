@@ -3,9 +3,17 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `A versatile professional with a unique blend of expertise in computing and journalism, leveraging this interdisciplinary background to excel in product engineering and user-centric design. With strong technical skills in web development, front-end frameworks, and application development, coupled with a deep understanding of data analysis and visual storytelling from journalism, I bring a holistic approach to technology projects. My ability to communicate complex technical concepts through intuitive, user-friendly designs makes me particularly adept at bridging the gap between technology and user experience. This cross-disciplinary advantage equips me to navigate the evolving tech landscape, where clear communication, data-driven insights, and cutting-edge development are critical for innovation. Through roles such as Product Manager, Front-end Developer, and Data News Journalist, I have demonstrated a unique capability to lead projects that not only meet technical demands but also resonate with users, enhancing both functionality and engagement.`;
+export const HERO_CONTENT = `As a front-end developer, I specialize in creating dynamic, user-centric web applications with a strong focus on delivering exceptional user experiences. I have extensive experience working with modern frameworks such as React, Angular, and Vue, and I'm well-versed in integrating popular UI libraries like Ant Design and Material UI to build responsive, aesthetically pleasing, and highly functional interfaces./n
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+My approach to development emphasizes not only clean, efficient code but also the importance of intuitive, accessible, and engaging user interactions. I’m passionate about optimizing the user journey, ensuring that every design and functionality choice serves the needs of the end user while maintaining a seamless experience across different devices and platforms.`;
+
+export const ABOUT_TEXT = `Hello, my name is Long, and I am currently pursuing a Master of Computing at the Australian National University, expected to graduate in June 2025. My academic journey is somewhat unique, as I originally completed my undergraduate studies in journalism, specializing in data journalism. This background has provided me with a strong foundation in storytelling through data visualization, where I focused on presenting complex data in an accurate, visually appealing manner to communicate insights effectively.\n
+
+As I transitioned to computing, my focus shifted towards front-end development, where I leverage my skills in design and user experience to build intuitive, data-driven applications. My experience in journalism continues to influence my approach to development, particularly in ensuring that information is not only accurate but also engaging and accessible.\n
+
+Beyond academics and professional interests, I am passionate about fitness and photography. I particularly enjoy astrophotography and often spend time outdoors. These hobbies have honed my patience, attention to detail, and creative problem-solving skills—qualities that also benefit my work in development.\n
+
+With this combination of skills and interests, I aim to contribute meaningfully to the field of computing, particularly in roles that combine data, design, and development to create innovative and user-centric solutions.`;
 
 export const EXPERIENCES = [
   {
@@ -14,6 +22,7 @@ export const EXPERIENCES = [
     company: "Google Inc.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    
   },
   {
     year: "2022 - 2023",
@@ -40,11 +49,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Fitness Tracker",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A full stack project utilizing Angular for the front-end development and SpringBoot for the back-end. The project stores data in MySQL and communicates via RESTful APIs for seamless data interaction.",
+    technologies: ["Angular", " SpringBoot", "Mysql",  "TypeScript"],
+    link: "https://github.com/LLLongA/fitness_tracker", 
+
   },
   {
     title: "Task Management App",
@@ -52,13 +63,17 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link: "https://github.com/yourusername/fitness-tracker", // 添加项目链接
+
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["Framer", "React", "TailwindCss","JavaScript"],
+    link: "https://github.com/LLLongA/Long_Profile", // 添加项目链接
+
   },
   {
     title: "Blogging Platform",
@@ -66,6 +81,8 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    link: "https://github.com/yourusername/fitness-tracker", // 添加项目链接
+
   },
 ];
 

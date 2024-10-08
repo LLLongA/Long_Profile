@@ -4,6 +4,12 @@ import { motion } from "framer-motion";
 import { motion_lr, motion_rl } from "../motionVariants";
 
 const About = () => {
+  const formattedText = ABOUT_TEXT.split("\n").map((line, index) => (
+    <p key={index} className="mb-4">
+      {line}
+    </p>
+  ));
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
@@ -12,7 +18,7 @@ const About = () => {
         whileInView="visible"
         className="my-20 text-center text-4xl"
       >
-        ABout
+        About
         <motion.span
           variants={motion_rl(0.5)}
           initial="hidden"
@@ -38,14 +44,14 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
-            <motion.p
+            <motion.div
               variants={motion_lr(1)}
               initial="hidden"
               whileInView="visible"
               className="my-2 max-w-xl py-6"
             >
-              {ABOUT_TEXT}
-            </motion.p>
+              {formattedText}
+            </motion.div>
           </div>
         </div>
       </div>

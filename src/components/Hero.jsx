@@ -10,6 +10,12 @@ const container = (delay) => ({
   },
 });
 
+const formattedText = HERO_CONTENT.split("\n").map((line, index) => (
+  <p key={index} className="mb-4">
+    {line}
+  </p>
+));
+
 const motion_rl = (delay) => ({
   hidden: { x: 100, opacity: 0 },
   visible: {
@@ -52,9 +58,9 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-semibold tracking-tighter"
+              className="my-2 max-w-xl py-6"
             >
-              {HERO_CONTENT}
+              {formattedText}
             </motion.p>
           </div>
         </div>
