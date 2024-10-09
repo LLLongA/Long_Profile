@@ -6,6 +6,7 @@ import { FaVuejs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiMysql } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 const Technologies = () => {
   return (
@@ -71,6 +72,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiMysql className="text-7xl text-blue-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
       </motion.div>
     </div>
