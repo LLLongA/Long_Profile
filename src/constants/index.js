@@ -48,7 +48,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website built with React and styled using Tailwind CSS for a modern UI. Framer Motion is used for smooth animations, and JavaScript handles interactive features to showcase projects and skills effectively.",
-    technologies: ["React", "TailwindCss","JavaScript","Framer"],
+    technologies: ["React", "TailwindCss","Vite","JavaScript","Framer"],
     link: "https://github.com/LLLongA/Long_Profile", 
 
   },
