@@ -14,7 +14,8 @@ As I transitioned to computing, my focus shifted towards front-end development, 
 
 Beyond academics and professional interests, I am passionate about fitness and photography. I particularly enjoy astrophotography and often spend time outdoors. These hobbies have honed my patience, attention to detail, and creative problem-solving skills—qualities that also benefit my work in development.\n
 
-With this combination of skills and interests, I aim to contribute meaningfully to the field of computing, particularly in roles that combine data, design, and development to create innovative and user-centric solutions.`;
+With this combination of skills and interests, I aim to contribute meaningfully to the field of computing, particularly in roles that combine data, design, and development to create innovative and user-centric solutions.
+I will graduate from ANU in June 2025. Since I may not graduate yet and do not have so much industry experience, but I am definitely qualified for this job. I have done a lot of front-end projects. I provide links for them and I will deploy some of them. You can click to view them. I sincerely hope that you can consider me and hire me. You will never regret it.\n`;
 
 export const EXPERIENCES = [
   {
@@ -35,8 +36,17 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Fitness Tracker",
+    title: "Restaurant Website",
     image: project1,
+    description:
+      "A full stack project utilizing Angular for the front-end development and SpringBoot for the back-end. The project stores data in MySQL and communicates via RESTful APIs for seamless data interaction.",
+    technologies: ["Next.js", "React", "Typescript"],
+    link: "https://github.com/LLLongA/fitness_tracker", 
+
+  },
+  {
+    title: "Fitness Tracker",
+    image: project3,
     description:
       "A full stack project utilizing Angular for the front-end development and SpringBoot for the back-end. The project stores data in MySQL and communicates via RESTful APIs for seamless data interaction.",
     technologies: ["Angular", " SpringBoot", "Node.js","Mysql",  "TypeScript", "Sass"],
@@ -45,7 +55,7 @@ export const PROJECTS = [
   },
   {
     title: "Personal Website",
-    image: project3,
+    image: project4,
     description:
       "A personal portfolio website built with React and styled using Tailwind CSS for a modern UI. Framer Motion is used for smooth animations, and JavaScript handles interactive features to showcase projects and skills effectively.",
     technologies: ["React", "TailwindCss","Vite","JavaScript","Framer"],
@@ -54,7 +64,7 @@ export const PROJECTS = [
   },
   {
     title: "To-do List",
-    image: project4,
+    image: project5,
     description:
       "Develop a simple and efficient To-do List website based on Vue.js to help users better manage daily tasks and improve productivity in work and life. Users can easily add, delete, and manage tasks, and track the status of tasks (such as marking whether a task is completed or not) to ensure that tasks are not missed.",
     technologies: ["Vue","JavaScript","Html","Css"],
@@ -63,7 +73,7 @@ export const PROJECTS = [
   },
   {
     title: "Falling",
-    image: project5,
+    image: project1,
     description:
       "The game was developed using Unity, utilizing C# for scripting and gameplay mechanics. I focused on creating a smooth and immersive player experience, incorporating pixel art style graphics and different thematic levels to enhance the visual appeal.",
     technologies: ["Unity", "C#"],

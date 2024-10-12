@@ -10,7 +10,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center gap-4 text-2xl ">
         <FaLinkedin />
-        <FaGithub />
+        <FaGithub src="https://github.com/LLLongA" />
       </div>
     </nav>
   );

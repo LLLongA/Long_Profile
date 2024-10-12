@@ -7,6 +7,7 @@ import { SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiMysql } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { RiNextjsLine } from "react-icons/ri";
 
 const Technologies = () => {
   return (
@@ -80,6 +81,15 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaNodeJs className="text-7xl text-green-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiNextjsLine className="text-7xl text-white" />
         </motion.div>
       </motion.div>
     </div>
