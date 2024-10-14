@@ -39,9 +39,9 @@ export const PROJECTS = [
     title: "Restaurant Website",
     image: project1,
     description:
-      "A full stack project utilizing Angular for the front-end development and SpringBoot for the back-end. The project stores data in MySQL and communicates via RESTful APIs for seamless data interaction.",
+      "This project is a responsive restaurant website built using Next.js, React, and TypeScript. The website provides a seamless and interactive user experience across various devices. By leveraging the power of Next.js for server-side rendering and React for dynamic UI components, the website ensures fast load times and smooth navigation. The use of TypeScript enhances code reliability and maintainability, making it easier to scale and develop further.",
     technologies: ["Next.js", "React", "Typescript"],
-    link: "https://github.com/LLLongA/fitness_tracker", 
+    link: "https://github.com/LLLongA/food_order", 
 
   },
   {
