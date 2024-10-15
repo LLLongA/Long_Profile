@@ -3,6 +3,8 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
+
 
 export const HERO_CONTENT = `As a front-end developer, I specialize in creating dynamic, user-centric web applications with a strong focus on delivering exceptional user experiences. I have extensive experience working with modern frameworks such as React, Angular, and Vue, and I'm well-versed in integrating popular UI libraries like Ant Design and Material UI to build responsive, aesthetically pleasing, and highly functional interfaces.
 
@@ -37,7 +39,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Restaurant Website",
-    image: project1,
+    image: project3,
     description:
       "This project is a responsive restaurant website built using Next.js, React, and TypeScript. The website provides a seamless and interactive user experience across various devices. By leveraging the power of Next.js for server-side rendering and React for dynamic UI components, the website ensures fast load times and smooth navigation. The use of TypeScript enhances code reliability and maintainability, making it easier to scale and develop further.",
     technologies: ["Next.js", "React", "Typescript"],
@@ -46,7 +48,7 @@ export const PROJECTS = [
   },
   {
     title: "Fitness Tracker",
-    image: project3,
+    image: project6,
     description:
       "A full stack project utilizing Angular for the front-end development and SpringBoot for the back-end. The project stores data in MySQL and communicates via RESTful APIs for seamless data interaction.",
     technologies: ["Angular", " SpringBoot", "Node.js","Mysql",  "TypeScript", "Sass"],
