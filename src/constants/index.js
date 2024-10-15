@@ -41,7 +41,7 @@ export const PROJECTS = [
     description:
       "This project is a responsive restaurant website built using Next.js, React, and TypeScript. The website provides a seamless and interactive user experience across various devices. By leveraging the power of Next.js for server-side rendering and React for dynamic UI components, the website ensures fast load times and smooth navigation. The use of TypeScript enhances code reliability and maintainability, making it easier to scale and develop further.",
     technologies: ["Next.js", "React", "Typescript"],
-    link: "https://github.com/LLLongA/food_order", 
+    link: "https://food-order-chi-ten.vercel.app/", 
 
   },
   {
@@ -77,7 +77,7 @@ export const PROJECTS = [
     description:
       "The game was developed using Unity, utilizing C# for scripting and gameplay mechanics. I focused on creating a smooth and immersive player experience, incorporating pixel art style graphics and different thematic levels to enhance the visual appeal.",
     technologies: ["Unity", "C#"],
-    link: "https://www.notion.so/project-grover-landing/ec62fef82fae491d9947178c2404ba4b?v=bd161193830640078a94a9c11b60ded4", 
+    link: "https://play.unity.com/en/games/a53169c5-e8fb-4758-9fcd-7c649b9ce30f/webgl-builds", 
 
   },
   {
