@@ -43,7 +43,7 @@ export const PROJECTS = [
     description:
       "This project is a responsive restaurant website built using Next.js, React, and TypeScript. The website provides a seamless and interactive user experience across various devices. By leveraging the power of Next.js for server-side rendering and React for dynamic UI components, the website ensures fast load times and smooth navigation. The use of TypeScript enhances code reliability and maintainability, making it easier to scale and develop further.",
     technologies: ["Next.js", "React", "Typescript"],
-    link: "https://food-order-chi-ten.vercel.app/", 
+    link: "https://food-order-chi-ten.vercel.app/",
 
   },
   {
@@ -51,8 +51,8 @@ export const PROJECTS = [
     image: project6,
     description:
       "A full stack project utilizing Angular for the front-end development and SpringBoot for the back-end. The project stores data in MySQL and communicates via RESTful APIs for seamless data interaction.",
-    technologies: ["Angular", " SpringBoot", "Node.js","Mysql",  "TypeScript", "Sass"],
-    link: "https://github.com/LLLongA/fitness_tracker", 
+    technologies: ["Angular", " SpringBoot", "Node.js", "Mysql", "TypeScript", "Sass"],
+    link: "https://github.com/LLLongA/fitness_tracker",
 
   },
   {
@@ -60,8 +60,8 @@ export const PROJECTS = [
     image: project4,
     description:
       "A personal portfolio website built with React and styled using Tailwind CSS for a modern UI. Framer Motion is used for smooth animations, and JavaScript handles interactive features to showcase projects and skills effectively.",
-    technologies: ["React", "TailwindCss","Vite","JavaScript","Framer"],
-    link: "https://github.com/LLLongA/Long_Profile", 
+    technologies: ["React", "TailwindCss", "Vite", "JavaScript", "Framer"],
+    link: "https://github.com/LLLongA/Long_Profile",
 
   },
   {
@@ -69,8 +69,8 @@ export const PROJECTS = [
     image: project5,
     description:
       "Develop a simple and efficient To-do List website based on Vue.js to help users better manage daily tasks and improve productivity in work and life. Users can easily add, delete, and manage tasks, and track the status of tasks (such as marking whether a task is completed or not) to ensure that tasks are not missed.",
-    technologies: ["Vue","JavaScript","Html","Css"],
-    link: "https://github.com/LLLongA/To_do-List", 
+    technologies: ["Vue", "JavaScript", "Html", "Css"],
+    link: "https://github.com/LLLongA/To_do-List",
 
   },
   {
@@ -79,7 +79,7 @@ export const PROJECTS = [
     description:
       "The game was developed using Unity, utilizing C# for scripting and gameplay mechanics. I focused on creating a smooth and immersive player experience, incorporating pixel art style graphics and different thematic levels to enhance the visual appeal.",
     technologies: ["Unity", "C#"],
-    link: "https://play.unity.com/en/games/a53169c5-e8fb-4758-9fcd-7c649b9ce30f/webgl-builds", 
+    link: "https://play.unity.com/en/games/369d6bcd-5801-4c97-946c-0cf0d9b77c33/webgl-builds",
 
   },
   {
@@ -88,7 +88,7 @@ export const PROJECTS = [
     description:
       "Grover Planner is an application developed using Python's PySide library for building the UI. It utilizes Web Channel for interaction between Python and JavaScript. The app is designed to control a robot, enabling it to draw in outdoor environments.",
     technologies: ["Python", "JavaScript", "Html"],
-    link: "https://www.notion.so/project-grover-landing/ec62fef82fae491d9947178c2404ba4b?v=bd161193830640078a94a9c11b60ded4", 
+    link: "https://www.notion.so/project-grover-landing/ec62fef82fae491d9947178c2404ba4b?v=bd161193830640078a94a9c11b60ded4",
 
   },
 ];
