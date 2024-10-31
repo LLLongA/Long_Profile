@@ -6,7 +6,7 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 
 
-export const HERO_CONTENT = `As a front-end developer, I specialize in creating dynamic, user-centric web applications with a strong focus on delivering exceptional user experiences. I have extensive experience working with modern frameworks such as React, Angular, and Vue, and I'm well-versed in integrating popular UI libraries like Ant Design and Material UI to build responsive, aesthetically pleasing, and highly functional interfaces.
+export const HERO_CONTENT = `As a front-end developer with a strong foundation in product management principles, I excel in bridging the gap between technical implementation and strategic business goals. My experience in product management has refined my ability to understand user needs deeply, prioritize feature development effectively, and work cross-functionally to align development with broader business objectives. This background enables me to approach front-end development with a user-centered perspective, always keeping end-user satisfaction, project timelines, and stakeholder expectations in balance.
 
 My approach to development emphasizes not only clean, efficient code but also the importance of intuitive, accessible, and engaging user interactions. I’m passionate about optimizing the user journey, ensuring that every design and functionality choice serves the needs of the end user while maintaining a seamless experience across different devices and platforms.`;
 
