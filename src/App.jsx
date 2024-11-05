@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Experience />
         <Projects />
         <Contact />
+        <Analytics />
       </div>
     </div>
   );
